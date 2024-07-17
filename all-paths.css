@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.get-started-txt {
+    background-color: rgb(15 118 110);
+    color: white;
+
+}
+
+.odin-project-txt {
+    font-size: 20px;
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bnt-decor {
+    border: none;
+    display: none;
+}
+
+@media only screen and (max-width:1023px) {
+    .display-none-txt {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .display-none-txt1 {
+        display: none;
+    }
+
+    .bnt-decor {
+        display: block;
+    }
+
+
+
+}
+
+.small-img {
+    text-align: center;
+    width: 25px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.offcanvas-start {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(249, 250, 251);
+}
+.explore-button2 {
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .explore-button1{
+        display: none;
+    }
+    .explore-button2{
+        display: block;
+    }
+}
+@media only screen and (max-width:639px){
+    .badge-img1{
+        text-align: center;
+    }
+    .explore-button2{
+        text-align: center;
+    }
+}
+ /* .badge-img{
+    width: 60%;
+    margin: auto;
+} */
+/* .explore-button,.explore-button1,.explore-button2{
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(31,41,55);
+    
+} */
+
+
+
+
+
+/* @media only screen and(max-width:640px){
+    .centering{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .foundations-txt{
+        text-align: justify;
+    }
+}
+.foundations-txt{
+    color: rgb(107, 114, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.badge-img1{
+    width: 58%;
+    margin: auto;
+}
+.learn-more-btn:hover{
+    background-color: white;
+}
+.donate-now-btn:hover{
+
+} */ */

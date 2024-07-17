@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css ">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <title>ODIN PROJECT</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-light ">
+      <div class="container-fluid">
+        <div class="d-flex ">
+          <div>
+            <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+          </div>
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand fw-normal display-none-txt odin-project-txt">THE ODIN PROJECT</a>
+          </div>
+        </div>
+        <form class="d-flex">
+          <ul class="nav justify-content-end display-none-txt1">
+            <li class="nav-item">
+              <a class="nav-link active link-dark fw-normal" aria-current="page" href="#">All Paths</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal" href="#">Support us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal" href="#">Sign in</a>
+            </li>
+            <li>
+            <img src="./odin-project-images/icons8-brightness-30.png" onclick="myFunction()" >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link link-dark fw-normal" href="#"><img src="./odin-project-images/icons8-brightness-30.png"
+                  alt="" class="w-75" onclick="myfunction()"></a>
+            </li> -->
+            <button class="btn btn-outline-success get-started-txt" type="submit">Get Started</button>
+
+          </ul>
+        </form>
+        <button class="btn btn-primary bnt-decor bg-light" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <img src="./odin-project-images/icons8-menu-50.png" alt="" class="w-50">
+        </button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+              <div class="d-flex ">
+                <div>
+                  <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="navbar-brand fw-normal odin-project-txt">THE ODIN PROJECT</a>
+                </div>
+              </div>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body d-flex">
+            <div class="d-flex">
+              <ul>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-home-50.png" alt="" class="small-img"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-map-24.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-about-50.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-heart-24.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-message-24.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <!-- <li><img src="./odin-project-images/icons8-home-50.png" alt="" class="small-img pt-4"></li> -->
+              </ul>
+            </div>
+            <div class="d-flex">
+              <ul>
+                <a href="">
+                  <li class="img-txt">home</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">All Paths</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">About</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">Support Us</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">Community</li>
+                </a>
+                <!-- <li class="pt-4">home</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="text-center p-5">
+      <span class="career-txt fw-bold">Your <strong class="fw-bold career-txt1">Career in Web Development</strong><br>
+        Starts Here</span>
+      <div class="fs-4">
+        Our full stack curriculum is free and supported by a <br>passionate open source community.
+      </div>
+      <div class="pt-4">
+        <button class="p-3 button-secondary">View Full Curriculum</button>
+      </div>
+    
+    </div>
+  
+  </div>
+  <div class="container-fluid">
+    <img src="./odin-project-images/home-isometric-68a769acd8c1f2c43991e3d6b24c658bf5e78b59fbca20aba5c7a97850948269.svg" alt="" class="w-100">
+  </div>
+  <div class="container">
+    <div class="text-center fs-3 fw-normal pt-5">
+      How it works
+      <div class=" fw-normal pt-3 works-txt">
+        This is the website we wish we had when we were learning on our own. We scour the <br>internet looking for only the best
+        resources to supplement your learning and present them <br>in a logical order.
+      </div>
+    </div>
+    <div class="row pt-5 WORK">
+      <div class="col text-center">
+        <div class="row">
+          <div class="col-lg-4">
+            <div><img src="./odin-project-images/learn image.svg" alt=""></div>
+            <div class="fs-5 pt-3">Learn</div>
+            <div>Learn from a curriculum with the best <br> curated online tutorials, blogs, and <br>courses.</div>
+          </div>
+          <div class="col-lg-4">
+            <div><img src="./odin-project-images/build image.svg" alt=""></div>
+            <div class="fs-5 pt-3">Build</div>
+            <div>Build dozens of portfolio-worthy <br>projects along the way, from simple <br>scripts to full programs and deployed <br>websites.</div>
+          </div>
+          <div class="col-lg-4">
+            <div><img src="./odin-project-images/connect image.svg" alt=""></div>
+            <div class="fs-5 pt-3">Connect</div>
+            <div>Build dozens of portfolio-worthy <br>projects along the way, from simple <br>scripts to full programs and deployed <br>websites.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid learn-everything-bg-color">
+    <div class="p-5 text-center fs-3 fw-normal">Learn everything you need to know</div>
+  <div class="sample ">
+    <!-- <div class="container d-flex justify-content-center align-items-center pt-2"> -->
+      <div class=" text-center p-2">
+        <div class="border-white  text-center"><img src="./odin-project-images/intermediatiate-html-css.svg" alt="" class="p-3">
+          <div class="text-center intermediatiate-txt">Intermediatiate <br>HTML and <br>CSS</div>
+        </div>
+      
+      </div>
+      <div class=" text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/advanced html-css.svg" alt="" class="p-3">
+          <div class=" text-center intermediatiate-txt">Advanced <br>HTML and <br>CSS</div>
+        </div>
+       
+      </div>
+      <div class=" text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/databases.svg" alt="" class="p-3">
+          <div class=" text-center  intermediatiate-txt">Databases</div>
+        </div>
+   
+      </div>
+    <!-- </div> -->
+    
+    
+    <!-- <div class="container d-flex justify-content-center align-items-center pt-2"> -->
+      <div class=" text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/node-js.svg" alt="" class="p-3 w-100">
+          <div class="text-center intermediatiate-txt ">NodeJs</div></div>
+        
+      </div>
+      <div class=" text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/javascript.svg" alt="" class="p-3">
+          <div class="text-center intermediatiate-txt ">JavaScript</div></div>
+      
+      </div>
+      <div class="text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/getting-hired.svg" alt="" class="p-3 w-100">
+          <div class="text-center  intermediatiate-txt">Getting Hired</div>
+        </div>
+        
+      </div>
+    <!-- </div> -->
+    
+    
+   
+    <!-- <div class="container d-flex justify-content-center align-items-center pt-2"> -->
+      <div class=" text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/react.svg" alt="" class="p-3">
+          <div class="text-center  intermediatiate-txt">React</div></div>
+        
+      </div>
+      <div class=" text-center p-2">
+        <div class="border-white text-center"><img src="./odin-project-images/ruby.svg" alt="" class="p-3">
+          <div class=" text-center  intermediatiate-txt">Ruby on Rails</div>
+        </div>
+        
+      </div>
+      <div class=" text-center p-2">
+        <div class="border-white  text-center"><img src="./odin-project-images/ruby1.svg" alt="" class="p-3">
+          <div class="text-center  intermediatiate-txt">Ruby</div>
+        </div>
+     
+      </div>
+    <!-- </div> -->
+    
+  </div>
+  <div class="d-flex justify-content-center">
+    <button class="p-3 button-secondary">explore Curriculum</button>
+  </div>
+  
+  
+  </div>
+  <div class="container-fluid succes-stories-background-color">
+    <div class="section1 ">
+      <div class="p-5 text-center fs-1">
+        Succes Stories
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row pb-4">
+              <div class="col-2">
+                <img src="./odin-project-images/pando.jpg" alt="" class="pando-border-radius">
+              </div>
+              <div class="col">
+                <div class="row">
+                  Rob pando
+                </div>
+                <div class="row pt-1">
+                  TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./odin-project-images/pando.jpg" alt="" class="pando-border-radius">
+              </div>
+              <div class="col">
+                <div class="row">
+                  Rob pando
+                </div>
+                <div class="row pt-1">
+                  TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row pb-4">
+              <div class="col-2">
+                <img src="./odin-project-images/pando.jpg" alt="" class="pando-border-radius">
+              </div>
+              <div class="col">
+                <div class="row">
+                  Rob pando
+                </div>
+                <div class="row pt-1">
+                  TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./odin-project-images/pando.jpg" alt="" class="pando-border-radius">
+              </div>
+              <div class="col">
+                <div class="row">
+                  Rob pando
+                </div>
+                <div class="row pt-1">
+                  TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center pt-3 "><u><a href="">Read more success stories</u></a>
+        <div class="pt-5 fs-2 fw-normal">Support Us!</div>
+        <div class="pt-1 fs-6 odin-project-txt1">The Odin Project is funded by the community. Join us in empowering learners  <br>
+           around the globe by supporting The Odin Project!
+        </div>
+        <div class="p-5">
+          <button class="btn btn-outline-success button-secondary link-dark">explore Curriculum</button>
+          <button class="btn btn-outline-success get-started-txt" type="submit">Get Started</button>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mt-5">
+        <div class="row">
+          <div class="d-flex ">
+            <div>
+              <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+            </div>
+            <div class="d-flex align-items-center">
+              <a class="navbar-brand fw-normal display-none-txt odin-project-txt">THE ODIN PROJECT</a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-secondary mx-1 mt-4">
+          <h6>High quality coding education maintained by an open source community.</h6>
+        </div>
+        <div class="row mx-1 pt-3 ">
+          <!-- <h2 id="demo08">8. Gray Scale</h2> -->
+            <div class="hover08 column">
+              <div>
+                <figure><img class="figure" src="./odin-project-images/github2.png" /></figure>
+                
+              </div>
+              <div>
+                <figure><img class="figure" src="./odin-project-images/discord.png" /></figure>
+              </div>
+              <div>
+                <figure><img class="figure" src="./odin-project-images/icons8-facebook-48.png" /></figure>
+              </div>
+              <div>
+                <figure><img class="figure" src="./odin-project-images/icons8-twitter-48.png" /></figure>
+              </div>
+              
+            </div>
+          <!-- <a" href="google.com ">
+            <img src="./images/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+            <a" href="google.com ">
+              <img src="./images/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+              <a" href="google.com ">
+                <img src="./images/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+                <a" href="google.com ">
+                  <img src="./images/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+                  <a" href="google.com ">
+                    <img src="./images/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a> -->
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5">
+        <div class="row">
+          <div class="col"><div class="row"><div class="col-lg-6 mt-2 pb-2">
+            <div class="row">
+              <h5>About us</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>About</h6>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Team</h6>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Blog</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Success Stories</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="row pb-2">
+              <h5>Guides</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Community guides</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Installation guides</h6>
+            </div>
+          </div></div></div>
+          <div class="col mx-5"><div class="row"><div class="col-lg-6 mt-2">
+            <div class="row pb-2">
+              <h5>Support</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>FAQ</h6>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Contribute</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Contact us</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="row pb-2">
+              <h5>Legal</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Terms</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Privacy</h6>
+            </div>
+          </div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 mt-5 mx-3 border-top border-secondary text-light">c</div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-secondary">
+          <h6>© 2024 The Odin Project. All rights reserved.</h6>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="d-flex pt-5">
+              <div>
+                <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+              </div>
+              <div class="d-flex align-items-center">
+                <a class="navbar-brand fw-normal display-none-txt odin-project-txt">THE ODIN PROJECT</a>
+              </div>
+              </div>
+            <div class=" odin-project-txt1 pt-3">
+              High quality coding education maintained by an open source community.
+            </div>
+          </div>
+          <div class="col-7 pt-5">
+            <div class="row">
+              <div class="col-3">
+                
+                  <ul class="">
+                    <span class="fw-bold">About Us</span>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                    <li>Success Stories</li>
+                  </ul>
+                
+            </div>
+              <div class="col-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis numquam consequuntur voluptatum, quae rem harum saepe amet est iusto nemo illum ad commodi fugiat, repudiandae, voluptas nam maxime molestias!
+              </div>
+              <div class="col-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, corrupti dignissimos. Recusandae, non voluptatem ducimus est placeat aspernatur aliquid tempore, adipisci soluta dolores officia! Repudiandae adipisci hic at aut saepe!
+              </div>
+              <div class="col-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab error temporibus aliquid consequatur eligendi. Nam, quisquam? Quas iusto porro natus nisi, eligendi provident pariatur veritatis, velit non suscipit, a expedita!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  
+  <script src="./index-script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous">
+  </script>
+ 
+</body>
+</html>
