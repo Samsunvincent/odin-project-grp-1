@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+
+}
+
+.width-container{
+    width: 70%;
+    min-width: 576px;
+    margin: auto;
+}
+
+.gray-container-custom{
+    background-color: rgb(243 244 246);
+    min-width: 576px;
+}
+
+.overview{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn-cont-don{
+    background-color: rgb(15 118 110);
+    color: white;
+}
+
+.odin-full-div{
+    min-width: 576px;
+    background-color: rgb(249 248 249);
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer-custom{
+    min-width: 576px;
+}
+
+@media only screen and (max-width: 768px){
+    .expect-texts, .expect-row-head, .odin-project-text{
+        text-align: center;
+    }
+}
