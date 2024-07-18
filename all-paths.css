@@ -82,46 +82,91 @@ body {
         text-align: center;
     }
 }
- /* .badge-img{
-    width: 60%;
-    margin: auto;
-} */
-/* .explore-button,.explore-button1,.explore-button2{
-    width: 150px;
-    border-radius: 8px;
-    background-color: rgb(31,41,55);
-    
-} */
-
-
-
-
-
-/* @media only screen and(max-width:640px){
-    .centering{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .foundations-txt{
-        text-align: justify;
-    }
+.background-color{
+    background-color: rgb(243 244 246);
 }
-.foundations-txt{
-    color: rgb(107, 114, 128);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
+.donate-now{
+    background-color: rgb(17 94 89);
 }
-.badge-img1{
-    width: 58%;
-    margin: auto;
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
-.learn-more-btn:hover{
-    background-color: white;
+h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
 }
-.donate-now-btn:hover{
+h1+p a {
+	color: #333;
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
 
-} */ */
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.figure {
+
+	width: 30px;
+    height: 30px;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
