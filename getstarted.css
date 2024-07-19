@@ -9,35 +9,47 @@
      background-color: #292c35;
      color: white;
 
-     
-    
  }
-.termcondi {
-    text-decoration: none;
-    color: gray;
-}
-.termcondi:hover{
-    text-decoration: underline;
-    color: grey;
-}
-.sigup22{
-    color: gray;
-    text-decoration: underline;
-    
-}
-.sigup22:hover{
-    text-decoration: none;
-}
 
-.logo33{
-    filter: grayscale(1);
+ .dark-mode a {
+     color: white;
+ }
 
-}
-.logo33:hover {
-    filter: grayscale(0);
-}
-@media only screen and (max-width:567px) {
-    .erox12{
-        min-width:567px;
-    }
-}
+ .dark-mode a:hover {
+     color: gray;
+ }
+
+ .termcondi {
+     text-decoration: none;
+     color: gray;
+ }
+
+ .termcondi:hover {
+     text-decoration: underline;
+     color: grey;
+ }
+
+ .sigup22 {
+     color: gray;
+     text-decoration: underline;
+
+ }
+
+ .sigup22:hover {
+     text-decoration: none;
+ }
+
+ .logo33 {
+     filter: grayscale(1);
+
+ }
+
+ .logo33:hover {
+     filter: grayscale(0);
+ }
+
+ @media only screen and (max-width:567px) {
+     .erox12 {
+         min-width: 567px;
+     }
+ }
