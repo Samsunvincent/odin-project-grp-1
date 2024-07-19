@@ -1,8 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     /* border: 1px solid; */
 
+}
+
+.navbar{
+    min-width: 576px;
+}
+
+.odin-font{
+    font-family: "Caesar Dressing", system-ui;
+}
+
+.nav-link{
+    color: #6b8280;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-hover-custom:hover{
+    color: black;
+    border-bottom: 2px solid #6b8280;
+}
+
+.nav-link:visited{
+    color: #6b8280;
+}
+
+.nav-btn-custom{
+    background-color: rgb(15 118 110);
+    color: white;
+}
+
+.nav-btn-custom:hover{
+    background-color: rgb(14, 105, 97);
+}
+
+.off-canvas-nav-item{
+    display: none;
+}
+
+@media only screen and (max-width: 992px){
+
+    .nav-odin-text{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    .nav-item{
+        display: none;
+    }
+    .off-canvas-nav-item{
+        display: block;
+    }
+    
 }
 
 .width-container{
