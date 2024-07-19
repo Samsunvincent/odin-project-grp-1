@@ -2,76 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: rgb(60, 58, 58);
- 
+   background-image: url(./community-images/odin.jpeg.jpg);
+   background-size: cover;
 }
-.bg-div{
-    background-image: url(./community-images/dicordbackground.png);
-    background-size: cover;
-    min-width: 100vw;
-   min-height: 100vh;
-}
-.form{
-min-width: 576px;
-    background-color: rgb(60, 58, 58);
-    border-radius: 7px;
+
+.form-custom{
     
+    background-color: #373636;
 }
-.form-control{
-    max-width: 93%;
-}
-.discordlogoformimg{
+.formhead{
     display: none;
 }
-.btns{
-    width: 93%;
-    background-color: rgb(77, 25, 208);
-    border-radius: 4px;
+.registering-text{
+    font-size: 12px;
 }
-.formtext{
-    font-size: 15px;
-    color: rgb(203, 186, 186);
-}
-.formtext1{
+.privacy-text{
     font-size: 14px;
-    color: rgb(203, 186, 186);
 }
-.formtext2{
-    font-size: 13px;
+.characters-text{
+    font-size: 14px;
 }
-@media only screen  and (max-width:624px){
-    .backgroundimg{
-      display: none;
-    }
-    .form{
-        min-width: 576px;
-        min-height:auto;
-    }
-    .ff{
-      display: none;
-    }
-    .bg-div{
-        /* min-height: auto; */
-        background-color: rgb(60, 58, 58);
-        background-image: url(./images/dicordbackground.;;lkjjpng);
-    }
-    .formtext{
-        font-size: 15px;
-        color: rgb(203, 186, 186);
-    }
-    .formtext1{
-        font-size: 14px;
-        color: rgb(203, 186, 186);
-    }
-    .formtext2{
-        font-size: 12px;
-        margin-left: -5px;
-    }
-    .discordlogoformimg{
-        display: block;
-       
-    }
-
+@media only screen and (max-width:478px){
+    .form-custom-div{
+        width: 100%;
+        height: auto;
+    } 
     
+    .form-custom{
+        
+        height: 100vh;
+    }
+    nav{
+        display: none;
+    }
+    body{
+        background-image: none;
+    }
 }
+                  
