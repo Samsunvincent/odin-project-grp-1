@@ -7,7 +7,7 @@ body{
  
 }
 .bg-div{
-    background-image: url(./images/dicordbackground.png);
+    background-image: url(./community-images/dicordbackground.png);
     background-size: cover;
     min-width: 100vw;
    min-height: 100vh;
