@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="react.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+      </style>
+</head>
+<body>
+<div class="container-fluid border pb-2">
+  <div class="container-xxl mt-2 ">
+    <div class="row firstrow ">
+      <div class="col-3 d-flex">
+        <a class="navbar-brand1" href="./index.html">
+          <img src="./intermediateimages/odin logo.svg" alt="" width="52" height="47">
+          <a href="https://getbootstrap.com/docs/5.0/helpers/colored-links/" class="link-dark first mt-3">
+            <h6>THE ODIN PROJECT</h6>
+          </a>
+        </a>
+
+      </div>
+      <div class="col-1 text-light">
+        C
+      </div>
+      <div class="col-8 position-relative">
+        <ul class="nav d-flex justify-content-evenly ">
+          <li class="nav-item">
+            <a class="nav-link active link-secondary mt-1" aria-current="page" href="./all-paths.html">All Paths</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-secondary mt-1" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-secondary mt-1" href="./community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-secondary mt-1" href="./support.html">Support Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-secondary mt-1" href="./signup.html">Sign in</a>
+          </li>
+          <li>
+            <a class="navbar-brand" href="google.com ">
+              <img src="./intermediateimages/icons8-sun-24.png" alt="" width="30" height="23" class="navimg"></a>
+          </li>
+          <li>
+            <button type="button" class="btn1 btn-success text-light mt-1 py-2 px-2"><a class="link-light"
+                href="./getstarted.html">Get Started</a></button>
+          </li>
+          <li>
+            <a class="navbar-brand hidden" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <img src="./intermediateimages/icons8-menu-24.png" alt="" width="30" height="23">
+            </a>
+            
+            
+            <div class="offcanvas offcanvas-start customoffcanvas " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel"><div class="col-12 d-flex">
+                  <a class="navbar-brand1" href="./index.html">
+                    <img src="./intermediateimages/odin logo.svg" alt="" width="52" height="47">
+                    <a href="https://getbootstrap.com/docs/5.0/helpers/colored-links/" class="link-dark first1 d-flex align-items-center text-decoration-none mt-3">
+                      <h6>THE ODIN PROJECT</h6>
+                    </a>
+                  </a>
+          
+                </div></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-home-24.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./index.html"><h5 class="offcanvastext">Home</h5></a></span></div>
+                  <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-book-30.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./all-paths.html"><h5 class="offcanvastext">All Paths</h5></a></span></div>
+                  <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-about-50.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./about.html"><h5 class="offcanvastext">About</h5></a></span></div>
+                  <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-heart-24.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./support.html"><h5 class="offcanvastext">Support us</h5></a></span></div>
+                  <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-check-all-24 (1).png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./community.html"><h5 class="offcanvastext">Community</h5 class="offcanvastext"></a></span></div>
+                  <div class="container-fluid border border-secondary"></div>
+                </div>
+                <div class="d-flex mt-3"><span class="mt-1"><img src="./intermediateimages/icons8-rocket-50.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./getstarted.html"><h5 class="offcanvastext">Get Started</h5></a></span></div>
+                <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-sun-24.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./allpaths.html"><h5 class="offcanvastext">Light mode</h5 class="offcanvastext"></a></span></div>
+                <div class="d-flex"><span class="mt-1"><img src="./intermediateimages/icons8-sign-in-24.png" alt="" width="27" height="15"></span><span class=""> <a class="nav-link active link-secondary mt-" aria-current="page" href="./signup.html"><h5 class="offcanvastext">Sign in</h5 class="offcanvastext"></a></span></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="container-fluid">
+        <div class="row pt-5">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md">
+            <div class="row"><div class="text-center"><img src="./intermediateimages/react.svg" alt="" width="130" height="100" class=" "></div></div></div>
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2 colnone text-light">
+            C
+          </div>
+          <div class="col-md">
+            <div class="row-12 text-center pt-3"><h3>React Course</h3></div>
+          </div>
+          <div class="col-2 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-3">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md">
+            <div class="row-12"><div class="col"><h5>Overview</h5></div>
+            <div class="col text-secondary">Let's learn React, the most popular JavaScript library for building user interfaces. Take your frontend skills to a whole new level!</div></div>
+          </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg  shadow p-3 mb-5 bg-body rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>Introduction</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">How This Course Will Work</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Introduction To React</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Setting Up A React Environment</h6></div>   </a>
+            </div>
+            </div>
+          
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>Getting Started With React</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">React Components</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">What Is JSX?</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-tools-50.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Rendering Techniques</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Keys In React</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-tools-50.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Passing Data Between Components</h6></div>   </a>
+            </div></div>
+            
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>States And Effects</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Introduction To State</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">More On State</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-tools-50.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Project: CV Application</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">How To Deal With Side Effects</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-tools-50.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Project: Memory Card</h6></div>   </a>
+            </div>
+            </div>
+            
+          
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>Class Components</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Class Based Components</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Component Lifecycle Methods</h6></div>   </a>
+            </div>
+            </div>
+            
+            
+          
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>React Testing</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Introduction To React Testing</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Mocking Callbacks And Components</h6></div>   </a>
+            </div>
+            </div>
+            
+            
+          
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>The React Ecosystem</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Type Checking With PropTypes</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">React Router</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-tools-50.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Fetching Data In React</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Styling React Applications</h6></div>   </a>
+            </div>
+            </div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-tools-50.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Project: Shopping Cart</h6></div>   </a>
+            </div></div>
+            
+            
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>More React Concepts</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Managing State With The Context API</h6></div>   </a>
+            </div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Refs And Memoization</h6></div>   </a>
+            </div>
+            </div>
+            
+          
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3 ">
+        <div class="row">
+          <div class="col-3 colnone text-light">
+            C
+          </div>
+          <div class="col-md lh-lg shadow p-3 mb-5 bg-body rounded rounded box">
+            <div class="row mb-4"><a href="" class="link-dark text-decoration-underline"><h5>Conclusion</h5></a></div>
+            <div class="row mb-3"><div class="border nullborder"></div></div>
+            <div class="row mb-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action border-0"> <div class="d-flex gap-3"><img src="./intermediateimages/icons8-book-30.png"  alt="" width="32" height="20"><h6 class="text-secondary text">Conclusion</h6></div>   </a>
+            </div></div>
+           
+          
+        </div>
+          <div class="col-3 colnone text-light">
+            
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid supportbtndiv pb-5 ">
+        <div class="container" >
+          <div class="row mt-5">
+            <span class="text-center mt-5">
+              <h3>Support us!</h3>
+            </span>
+          </div>
+          <div class="row mt-1 py-4">
+            <span class="text-center text-secondary">
+              <h6 class="footertext3">The Odin Project is funded by the community. Join us in empowering learners</h6>
+            </span>
+            <span class="text-center text-secondary">
+              <h6 class="footertext4">around the globe by supporting The Odin Project!</h6>
+            </span>
+          </div>
+        </div>
+        <div class="container  box">
+          <div class="row mt-3">
+            <div class="col text-center">
+              <button type="button" class="btn btn-light btn-lg text-secondary border-secondary mx-2">Learn more</button>
+              <button type="button" class="btn btn-success btn-lg ">Donate now<a class="navbar-brand" href="#">
+                  <img src="./intermediateimages/icons8-arrow-30.png" alt="" width="20" height="24">
+                </a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col mt-5 text-light">
+            C
+          </div>
+    
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col d-flex"> <a href="google.com ">
+                  <img src="./intermediateimages/odin logo.svg" alt="" width="52" height="47">
+                  <a href="https://getbootstrap.com/docs/5.0/helpers/colored-links/" class="link-dark mt-3">
+                    <h6 class="theodinproject">THE ODIN PROJECT</h6>
+                  </a>
+                </a></div>
+            </div>
+            <div class="row text-secondary mx-1 mt-4">
+              <h6 class="footertext2">High quality coding education maintained by an open source community.</h6>
+            </div>
+            <div class="row mx-1 mt-3">
+              <a" href="google.com ">
+                <img src="./intermediateimages/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+                <a" href="google.com ">
+                  <img src="./intermediateimages/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+                  <a" href="google.com ">
+                    <img src="./intermediateimages/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+                    <a" href="google.com ">
+                      <img src="./intermediateimages/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+                      <a" href="google.com ">
+                        <img src="./intermediateimages/icons8-twitter-circled-48.png" alt="" width="30" height="23"></a>
+            </div>
+          </div>
+          <div class="col-lg footer7 box">
+            <div class="row">
+              <div class="col"><div class="row"><div class="col-lg-6 mt-2 pb-2">
+                <div class="row">
+                  <h5>About us</h5>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">About</h6>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">Team</h6>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">Blog</h6>
+                </div>
+                <div class="row text-secondary">
+                  <h6 class="footertext2">Success Stories</h6>
+                </div>
+              </div><div class="col-lg-6 mt-2 legalfooter">
+                <div class="row pb-2">
+                  <h5>Support</h5>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">FAQ</h6>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">Contribute</h6>
+                </div>
+                <div class="row text-secondary">
+                  <h6 class="footertext2">Contact us</h6>
+                </div>
+              </div>
+              </div></div>
+              <div class="col  ">
+                <div class="row">
+                  <div class="col-lg-6 mt-2 ">
+                <div class="row pb-2">
+                  <h5>Guides</h5>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">Community guides</h6>
+                </div>
+                <div class="row text-secondary">
+                  <h6 class="footertext2">Installation guides</h6>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-2 legalfooter1">
+                <div class="row pb-2">
+                  <h5>Legal</h5>
+                </div>
+                <div class="row text-secondary pb-2">
+                  <h6 class="footertext2">Terms</h6>
+                </div>
+                <div class="row text-secondary">
+                  <h6 class="footertext2">Privacy</h6>
+                </div>
+              </div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 box">
+          <div class="col-12 mt-5 border-top border-secondary text-light">c</div>
+        </div>
+        <div class="container box">
+          <div class="row">
+            <div class="col text-secondary ">
+              <h6 class="footertext1">© 2024 The Odin Project. All rights reserved.</h6>
+            </div>
+    
+          </div>
+        </div>
+    
+      </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
