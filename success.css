@@ -1,0 +1,9 @@
+.A2{
+    filter: grayscale(1);
+}
+.A2:hover{
+    filter: grayscale(0);
+}
+.sign:hover{
+    background-color: rgb(18, 77, 18);
+}
