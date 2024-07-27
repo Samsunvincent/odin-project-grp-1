@@ -1,124 +1,967 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="footer-about-section.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="footer-about-section.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+  </style>
+  
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container">
-        <nav class="navbar navbar-light ">
-            <div class="container-fluid">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-light ">
+      <div class="container-fluid">
+        <div class="d-flex ">
+          <div>
+            <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+          </div>
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand fw-normal display-none-txt odin-project-txt">THE ODIN PROJECT</a>
+          </div>
+        </div>
+        <form class="d-flex">
+          <ul class="nav justify-content-end display-none-txt1">
+            <li class="nav-item">
+              <a class="nav-link active link-dark fw-normal bottom-hover" aria-current="page" href="#">All Paths</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal bottom-hover" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal bottom-hover" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal bottom-hover" href="#">Support us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark fw-normal bottom-hover" href="#">Sign in</a>
+            </li>
+            <li>
+              <img src="./odin-project-images/icons8-brightness-30.png" onclick="myFunction()">
+            </li>
+            <!-- <li class="nav-item">
+                      <a class="nav-link link-dark fw-normal" href="#"><img src="./odin-project-images/icons8-brightness-30.png"
+                          alt="" class="w-75" onclick="myfunction()"></a>
+                    </li> -->
+            <button class="btn btn-outline-success get-started-txt" type="submit">Get Started</button>
+
+          </ul>
+        </form>
+        <button class="btn btn-primary bnt-decor bg-light" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <img src="./odin-project-images/icons8-menu-50.png" alt="" class="w-50">
+        </button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
               <div class="d-flex ">
                 <div>
                   <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
                 </div>
                 <div class="d-flex align-items-center">
-                  <a class="navbar-brand fw-normal display-none-txt odin-project-txt">THE ODIN PROJECT</a>
+                  <a class="navbar-brand fw-normal odin-project-txt">THE ODIN PROJECT</a>
                 </div>
               </div>
-              <form class="d-flex">
-                <ul class="nav justify-content-end display-none-txt1">
-                  <li class="nav-item">
-                    <a class="nav-link active link-dark fw-normal" aria-current="page" href="#">All Paths</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-dark fw-normal" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-dark fw-normal" href="#">Community</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-dark fw-normal" href="#">Support us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-dark fw-normal" href="#">Sign in</a>
-                  </li>
-                  <li>
-                  <img src="./odin-project-images/icons8-brightness-30.png" onclick="myFunction()" >
-                  </li>
-                  <!-- <li class="nav-item">
-                    <a class="nav-link link-dark fw-normal" href="#"><img src="./odin-project-images/icons8-brightness-30.png"
-                        alt="" class="w-75" onclick="myfunction()"></a>
-                  </li> -->
-                  <button class="btn btn-outline-success get-started-txt" type="submit">Get Started</button>
-      
-                </ul>
-              </form>
-              <button class="btn btn-primary bnt-decor bg-light" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                <img src="./odin-project-images/icons8-menu-50.png" alt="" class="w-50">
-              </button>
-      
-              <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
-                    <div class="d-flex ">
-                      <div>
-                        <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body d-flex">
+            <div class="d-flex">
+              <ul>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-home-50.png" alt="" class="small-img"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-map-24.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-about-50.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-heart-24.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <a href="">
+                  <li><img src="./odin-project-images/icons8-message-24.png" alt="" class="small-img pt-4"></li>
+                </a>
+                <!-- <li><img src="./odin-project-images/icons8-home-50.png" alt="" class="small-img pt-4"></li> -->
+              </ul>
+            </div>
+            <div class="d-flex">
+              <ul>
+                <a href="">
+                  <li class="img-txt">home</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">All Paths</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">About</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">Support Us</li>
+                </a>
+                <a href="">
+                  <li class="pt-4 img-txt">Community</li>
+                </a>
+                <!-- <li class="pt-4">home</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="text-center pt-5  meet-the-team">Meet The Team</div>
+      <div class="text-center volunteers-txt pt-4">The Odin project is run by a group of dedicated volunteers from
+        around the world.</div>
+      <div class="jumping-none">
+        <div class="d-flex gap-5 justify-content-center pt-4 ">
+          <a href="#core-jump" class="link-dark ">
+            <div class="jumping-txt px-3 p-1">Core</div>
+          </a>
+          <a href="#moderators-jump" class="link-dark fs-6 ">
+            <div class="jumping-txt px-3 p-1">Moderators</div>
+          </a>
+          <a href="#maintainers-jump" class="link-dark fs-6 ">
+            <div class="jumping-txt p-1 px-3">Maintainers</div>
+          </a>
+          <a href="#alumini-jump" class="link-dark fs-6 ">
+            <div class="jumping-txt p-1 px-3">Alumini</div>
+          </a>
+        </div>
+      </div>
+      <div class="select p-5">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Core</option>
+          <option value="1">Moderators</option>
+          <option value="2">Maintainers</option>
+          <option value="3">Alumini</option>
+        </select>
+      </div>
+      <div>
+        <div class="pt-5 core-txt" id="core-jump">Core</div>
+        <div class="shaping-txt pt-2">The Core team are long-serving members who have made significant contributions to
+          The Odin Project. They serve as the leadership, responsible for <br>shaping and guiding the direction of the
+          platform.</div>
+      </div>
+      <div class="pt-5">
+        <div class="row gap-5">
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/kevin mulhern.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
                       </div>
-                      <div class="d-flex align-items-center">
-                        <a class="navbar-brand fw-normal odin-project-txt">THE ODIN PROJECT</a>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/cody loyd" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/austin mayson.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/carlos diaz.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/./rachel moser.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/austin.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/valers.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
                       </div>
                     </div>
-                  </h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body d-flex">
-                  <div class="d-flex">
-                    <ul>
-                      <a href="">
-                        <li><img src="./odin-project-images/icons8-home-50.png" alt="" class="small-img"></li>
-                      </a>
-                      <a href="">
-                        <li><img src="./odin-project-images/icons8-map-24.png" alt="" class="small-img pt-4"></li>
-                      </a>
-                      <a href="">
-                        <li><img src="./odin-project-images/icons8-about-50.png" alt="" class="small-img pt-4"></li>
-                      </a>
-                      <a href="">
-                        <li><img src="./odin-project-images/icons8-heart-24.png" alt="" class="small-img pt-4"></li>
-                      </a>
-                      <a href="">
-                        <li><img src="./odin-project-images/icons8-message-24.png" alt="" class="small-img pt-4"></li>
-                      </a>
-                      <!-- <li><img src="./odin-project-images/icons8-home-50.png" alt="" class="small-img pt-4"></li> -->
-                    </ul>
-                  </div>
-                  <div class="d-flex">
-                    <ul>
-                      <a href="">
-                        <li class="img-txt">home</li>
-                      </a>
-                      <a href="">
-                        <li class="pt-4 img-txt">All Paths</li>
-                      </a>
-                      <a href="">
-                        <li class="pt-4 img-txt">About</li>
-                      </a>
-                      <a href="">
-                        <li class="pt-4 img-txt">Support Us</li>
-                      </a>
-                      <a href="">
-                        <li class="pt-4 img-txt">Community</li>
-                      </a>
-                      <!-- <li class="pt-4">home</li> -->
-                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-          </nav>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="pt-5 core-txt" id="maintainers-jump">Maintainers</div>
+        <div class="shaping-txt pt-2">Maintainers oversee our GitHub repositories. They work tirelessly to triage
+          issues, merge pull requests, and manage projects aimed at making The Odin <br>Project a better experience for
+          our learners..</div>
+      </div>
+      <div class="pt-5">
+        <div class="row gap-5">
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/zachry.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/zach.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/alex.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/eric.png" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/mac daniel.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/manon.png" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/chook.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/josh smith.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/mao.png" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="pt-5 core-txt" id="moderators-jump">Moderators</div>
+        <div class="shaping-txt pt-2">Our team of moderators diligently maintains a welcoming, safe, and productive
+          environment for all members within The Odin Project's Discord <br>community.</div>
+      </div>
+      <div class="pt-5">
+        <div class="row gap-5">
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/emad.png" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/antoni.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/fred.png" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/bryan.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/benjamin.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/damon marlow.png" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <!-- 
+          <div class="col-md-2 bg-body shadow rounded bg-light">
+            <div class="text-center pt-4"><img src="./footer-about-section-image/kevin mulhern.jpeg" alt=""
+                class=" rounded-circle rounded-img">
+              <div>
+                <div class="p-3">
+                  <div class="text-center shadow-box-name-txt">Kevin Mulhern</div>
+                  <div class="text-center shadow-box-date-txt pt-1">Joined 2015 · Ireland</div>
+                  <div class="row pt-3">
+                    <div class="col">
+                      <div class=" pt-5 d-flex justify-content-evenly">
+                        <img src="./footer-about-section-image/icons8-github-24.png" alt="">
+                        <img src="./footer-about-section-image/icons8-twitter-30 (1).png" alt="">
+                        <img src="./footer-about-section-image/icons8-linked-in-30.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div>
+        <div class="pt-5 core-txt" id="alumini-jump">Alumini</div>
+        <div class="shaping-txt pt-2">We extend our gratitude to all our former team members. Their dedication and
+          contributions have played an invaluable role in the development of The <br>Odin Project</div>
+      </div>
+      
+        <div class="row grid-row">
+          <div class="col">
+            <div class="row px-3 pt-5 ">
+              <div class="col  text-center centering">
+                  <img src="./footer-about-section-image/erik trautmen.jpeg" alt="" class="rounded-circle rounded-img1 text-center">
+                  <div class="pt-3 fw-bold">eric trautmen</div>
+                  <div class="fw-bold">(founder)</div>
+              </div>
+              <div class="col text-center centering">
+                <img src="./footer-about-section-image/arun kumar.jpeg" alt="" class="rounded-circle rounded-img1">
+                <div class="pt-3 fw-bold">Arun Kumar</div>
+                <div class="fw-bold">Mohan</div>
+              </div>
+              <div class="col text-center centering">
+                <img src="./footer-about-section-image/javier.png" alt="" class="rounded-circle rounded-img1">
+                <div class="pt-3 fw-bold">javier machien</div>
+              </div>
+              <div class="col text-center centering">
+                <img src="./footer-about-section-image/cornelius.jpeg" alt="" class="rounded-circle rounded-img1">
+                <div class="pt-3 fw-bold">cornelious soon</div>
+              </div>
+              <div class="col text-center centering">
+                <img src="./footer-about-section-image/ada chiu.jpeg" alt="" class="rounded-img1 rounded-circle">
+                <div class="pt-3 fw-bold">ada chiu</div>
+              </div>
+              <div class="col nullcol-1 "></div>
+              <div class="col nullcol"></div>
+              <div class="col nullcol"></div>
+            </div>
+          </div>
+        </div>
+      
+      
+    </div>
+    <div class="text-center lh-lg">
+      <div class=" pt-5 contributors-txt">To all our contributors</div>
+      <div>
+        We've had thousands of contributors outside of the official teams. To them, we extend a special thanks. Each and
+      </div>
+      <div>
+        every contribution has played an important role in improving The Odin Project for the benefit of all learners.
+      </div>
+      <a href="#" class><button class="align-items-center px-3  contribute-btn btn my-5 p-2">Learn how to contribute</button></a>
+    </div>
+     
+    </div>
+  <div class="container-fluid text-center supportus-background">
+    <div class="pt-5 fs-2 fw-normal">Support Us!</div>
+    <div class="pt-1 fs-6 odin-project-txt1">The Odin Project is funded by the community. Join us in empowering learners  <br>
+       around the globe by supporting The Odin Project!
+    </div>
+    <div class="p-5">
+      <button class="btn btn-outline-success button-secondary link-dark">explore Curriculum</button>
+      <button class="btn btn-outline-success get-started-txt" type="submit">Get Started</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mt-5">
+        <div class="row">
+          <div class="d-flex ">
+            <div>
+              <a class="navbar-brand  fw-normal"><img src="./odin-project-images/odin-logo.svg" alt=""></a>
+            </div>
+            <div class="d-flex align-items-center">
+              <a class="navbar-brand fw-normal display-none-txt odin-project-txt">THE ODIN PROJECT</a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-secondary mx-1 mt-4">
+          <h6>High quality coding education maintained by an open source community.</h6>
+        </div>
+        <div class="row mx-1 pt-3 ">
+          <div class="hover08 column">
+            <div>
+              <figure><img class="figure" src="./odin-project-images/github2.png" /></figure>
+        
+            </div>
+            <div>
+              <figure><img class="figure" src="./odin-project-images/discord.png" /></figure>
+            </div>
+            <div>
+              <figure><img class="figure" src="./odin-project-images/icons8-facebook-48.png" /></figure>
+            </div>
+            <div>
+              <figure><img class="figure" src="./odin-project-images/icons8-twitter-48.png" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5">
+        <div class="row">
+          <div class="col"><div class="row"><div class="col-lg-6 mt-2 pb-2">
+            <div class="row">
+              <h5>About us</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6> <a href="about.html">About</a></h6>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Team</h6>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Blog</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Success Stories</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="row pb-2">
+              <h5>Guides</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Community guides</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Installation guides</h6>
+            </div>
+          </div></div></div>
+          <div class="col mx-5"><div class="row"><div class="col-lg-6 mt-2">
+            <div class="row pb-2">
+              <h5>Support</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>FAQ</h6>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Contribute</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Contact us</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="row pb-2">
+              <h5>Legal</h5>
+            </div>
+            <div class="row text-secondary pb-2">
+              <h6>Terms</h6>
+            </div>
+            <div class="row text-secondary">
+              <h6>Privacy</h6>
+            </div>
+          </div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 mt-5 mx-3 border-top border-secondary text-light">c</div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-secondary">
+          <h6>© 2024 The Odin Project. All rights reserved.</h6>
+        </div>
+
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+  </div>
  
-  </body>
+
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
 </html>
