@@ -1,0 +1,8 @@
+.max-w-prose {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lilist{
+    list-style-type: disc;
+}
