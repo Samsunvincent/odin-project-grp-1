@@ -1,0 +1,17 @@
+.max-w-prose {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lilist {
+    list-style-type: disc;
+}
+.gff{
+    color: black;
+    text-decoration: underline;
+}
+.gff:hover{
+    color: blue;
+    text-decoration: none;
+}
