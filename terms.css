@@ -6,3 +6,12 @@
 .lilist{
     list-style-type: disc;
 }
+
+.linkmm{
+    text-decoration: underline;
+    color: blue;
+}
+.linkmm:hover{
+    text-decoration: none;
+    color: blue;
+}
