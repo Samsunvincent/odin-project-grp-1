@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.get-started-txt {
+    background-color: rgb(15 118 110);
+    color: white;
+
+}
+
+.odin-project-txt {
+    font-size: 20px;
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bnt-decor {
+    border: none;
+    display: none;
+}
+
+/* @media only screen and (max-width:1023px) {
+    .display-none-txt {
+        display: none;
+    }
+} */
+
+@media only screen and (max-width:992px) {
+    .display-none-txt1 {
+        display: none;
+    }
+
+    .bnt-decor {
+        display: block;
+    }
+
+
+
+}
+
+.small-img {
+    text-align: center;
+    width: 25px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.offcanvas-start {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* body */
+.meet-the-team{
+    font-size: 33px;
+    font-weight: 600;
+    color:  rgb(31, 41, 55);
+    font-family: Arial, Helvetica, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.volunteers-txt{
+    font-family: Arial, Helvetica, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: (107, 114, 128);
+    font-size: 16px;
+    font-weight: 400;
+}
+.jumping-txt{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(75, 85, 99);
+}
+.core-txt{
+    font-size: 24px;
+    font-weight: 600;
+    color:  rgb(17, 24, 39);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shaping-txt{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(107, 114, 128);
+}
+.rounded-img{
+    width: 80px;
+    height: 80px;
+}
+.shadow-box-name-txt{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(17, 24, 39);
+}
+.shadow-box-date-txt{
+    font-size: 14px;
+    font-weight: 400;
+    color:  rgb(107, 114, 128);
+}
+.rounded-img1{
+    width: 56px;
+    height: 56px;
+}
+.contributors-txt{
+    font-size:24px ;
+    font-weight: 300;
+    color:  rgb(75, 85, 99);
+}
+.contribute-btn{
+    background-color: rgb(15,118,110);
+    color: white;
+}
+@media only screen and (max-width:1225px){
+    .nullcol{
+        display: none;
+    }
+   
+}
+@media only screen and (max-width:850px){
+    .nullcol-1{
+        display: none;
+    }
+}
+/* @media only screen and (max-width:768px){
+    .grid-row{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+} */
+ .supportus-background{
+    background-color: rgb(243 244 246 );
+ }
+ .github{
+    display: inline-block;
+}
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+h1+p a {
+	color: #333;
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.figure {
+
+	width: 30px;
+    height: 30px;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.select{
+    display: none;
+}
+@media only screen and (max-width:750px){
+    .jumping-none{
+        display: none;
+    }
+    .select{
+        display: block;
+    }
+}
+.jumping-txt:hover{
+    /* padding: 5px; */
+    background-color: rgb(227, 227, 227);
+    border-radius: 8px;
+}
+.bottom-hover:hover{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.464);
+  
+}

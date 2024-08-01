@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}
+.navimg{
+    margin-top: 13px;
+}
+.first,.first1{
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.theodinproject{
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+.nav{
+    margin-left: 13%;
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+    color: rgb(156, 143, 143);
+}
+.theodinproject{
+font-family: "Caesar Dressing", system-ui;
+font-weight: 400;
+font-style: normal;  
+}
+.btn1{
+    border-radius: 4px;
+   border: 2px solid rgb(49, 150, 19);
+}
+.nullborder{
+    color: rgb(200, 192, 192);
+    border: 1px;
+}
+.text{
+    font-size: 14px;
+}
+.supportbtndiv{
+background-color:rgb(237, 239, 245);
+}
+.offcanvastext{
+    font-size: 16px;
+    font-weight: 400;
+color: black;
+}
+
+
+
+
+@media only screen  and (max-width:1024px){
+    .first{
+      display: none;
+    }
+}
+@media only screen  and (max-width:1150px){
+    .nav-item,.navbar-brand,.btn1{
+      display: none;
+    }
+}
+@media only screen  and (max-width:1150px){
+    .hidden{
+      display: block;
+      position: absolute;
+      right: 1%;
+    }
+}
+@media only screen  and (max-width:992px){
+    .footer7{
+     padding-top: 10%;
+    }
+}
+@media only screen  and (max-width:768px){
+    .colnone{
+      display: none;
+    }
+}
+@media only screen  and (max-width:768px){
+    .box{
+     width: 94%;
+     margin-left: 3%;
+     margin-right: 3%;
+    }
+}
+@media only screen  and (max-width:500px){
+    .customoffcanvas{
+     width: 80%;
+    }
+}
+
+@media only screen  and (max-width:395px){
+    .footertext1{
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .footertext2{
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 7px;
+    }
+    .footertext3{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .footertext4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .legalfooter{
+       padding-top: 10px;
+    }
+    .legalfooter1{
+        padding-top: 14px;
+     }
+}
