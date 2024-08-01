@@ -10,17 +10,43 @@
 <body>
   <nav>
     <div class="container d-flex justify-content-between">
+
       <div class="d-flex">
       <img src="./supportimg/images/logo.png" width="50px" height="50px" style="object-fit: cover;" >
-      <p style="margin-top: 2%; font-size: 20px;">The Odin Project</p>
+      <p class="logo-txt" style="margin-top: 2%; font-size: 20px;">The Odin Project</p>
     </div>
       <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+          <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <img src="./supportimg/images/icons8-menu.svg"  width="40%" class="menuhide">
+          </a>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <div class="d-flex">
+                <img src="./supportimg/images/logo.png" width="50px" height="50px" style="object-fit: cover;" >
+                <p class="logo-txt1" style="margin-top: 2%; font-size: 20px;">The Odin Project</p>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="offhide">
+                <div style="padding: 4%;"><a href="./index.html" class="text-decoration-none " style="font-size: 18px; color: rgb(99, 99, 99);"><img src="./supportimg/images/icons8-home-24.png" alt="">Home</a></div>
+                <div style="padding: 4%;"><a href="./all-paths.html" class="text-decoration-none" style="font-size: 18px; color: rgb(99, 99, 99);"><img src="./supportimg/images/icons8-map-24.png" alt="">All Paths</a></div>
+                <div style="padding: 4%;"><a href="./about.html" class="text-decoration-none" style="font-size: 18px; color: rgb(99, 99, 99);"><img src="./supportimg/images/icons8-info.svg" width="22px">About</a></div>
+                <div style="background-color: rgb(231, 231, 231); padding: 4%;"><a href="./support.html" class="text-decoration-none" style="font-size: 18px; color: black;"><img src="./supportimg/images/icons8-love-24.png" alt="">Support Us</a></div>
+                <div style="padding: 4%;"><a href="./community.html" class="text-decoration-none" style="font-size: 18px; color: rgb(99, 99, 99);"><img src="./supportimg/images/icons8-chat-24.png" alt="">Community</a></div>
+                <div style="padding: 4%;"><a href="./getstarted.html" class="text-decoration-none" style="font-size: 18px; color: rgb(99, 99, 99);"><img src="./supportimg/images/icons8-rocket-25.png" alt="">Get started</a></div>
+                <div style="padding: 4%;"><a href="./signup.html" class="text-decoration-none" style="font-size: 18px; color: rgb(99, 99, 99);">
+                <img src="./supportimg/images/icons8-enter-24.png" alt="">Sign-in</a></div>
+              </div>
+             
+            </div>
+          </div>
+
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -53,10 +79,10 @@
       </nav>
     </div>
   </nav>
-  <div class="bg-light align-middle p-5" style="text-align: center;">
+  <div class="bg-light align-middle pb-5 pt-5" style="text-align: center;">
     <h2><b>Support the Project</b></h2>
-    <p style="margin: 40px; margin-left: 28%; margin-right: 28%;">From the very beginning, The Odin Project has been committed to providing a world-class and completely free coding curriculum for anyone and everyone eager to learn. With your generous donations, we can continue to inspire thousands of aspiring developers, irrespective of their background or financial status.</p>
-    <button class="button2">Donate now!</button>
+    <div style="justify-content: center; display: flex;"><p class="paragraph">From the very beginning, The Odin Project has been committed to providing a world-class and completely free coding curriculum for anyone and everyone eager to learn. With your generous donations, we can continue to inspire thousands of aspiring developers, irrespective of their background or financial status.</p></div>
+    <button class="button2"><a class="text-decoration-none text-light" href="https://opencollective.com/theodinproject/donate?interval=oneTime&amount=5&name=&legalName=&email=">Donate now!</a></button>
   </div>
   <section>
     <h4 class="p-5" style="text-align: center;"><b>Frequently Asked Questions</b></h4>
@@ -74,7 +100,7 @@
     <h5 class="pb-3"><b>What are the benefits of donating?</b></h5>
     <p class="pb-5">Your donation helps us continue to provide a world-class and completely free coding curriculum for anyone and everyone eager to learn. We believe that this material should be available for free to anyone that needs it, and donations from those that have the means to contribute help keep it available for everyone!</p>
     <h5 class="pb-3"><b>How do I get the 'backer' role on Discord?</b></h5>
-    <p class="pb-3">Use the /opencollective command in our discord server to verify your Open Collective account. You will then be automatically given the 'backer' role. You will be prompted to provide your Open Collective username, which is found in the URL of your Open Collective profile. For example, if your profile URL is https://opencollective.com/rick-astley your username is rick-astley.</p>
+    <p class="pb-3">Use the /opencollective command in our discord server to verify your Open Collective account. You will then be automatically given the 'backer' role. You will be prompted to provide your Open Collective username, which is found in the URL of your Open Collective profile. For example, if your profile URL is  your username is rick-astley.</p>
     <p class="pb-5">If you want to remove the role for any reason, contact staff on discord through ModMail</p>
     <h5 class="pb-3"><b>Do users with the 'backer' role get any exclusive benefits?</b></h5>
     <p class="pb-5">Do users with the 'backer' role get any exclusive benefits?</p>
@@ -100,46 +126,47 @@
 <footer class="container ps-5 pe-5 pb-5">
 <div class="row">
   <div class="col-lg-4">
-    <img src="./supportimg/images/the-odin-project-logo-skill-finder-partners-page.png" style="width: 50%; margin-bottom: 20px;" >
+    <img src="./supportimg/images/the-odin-project-logo-skill-finder-partners-page.png" style="width: 200px; margin-bottom: 20px;" >
     <p style="margin-bottom: 20px;">High quality coding education maintained by an open source community.</p>
-    <div class="d-flex">
-    <img src="./supportimg/images/icons8-github.svg" class="me-3">
-    <img src="./supportimg/images/icons8-discord.svg" class="me-3">
-    <img src="./supportimg/images/icons8-facebook.svg"class="me-3">
-    <img src="./supportimg/images/icons8-twitter.svg" class="me-3">
+    <div class="d-flex pb-5">
+    <a href="https://github.com/TheOdinProject"><img src="./supportimg/images/icons8-github.svg" class="me-3"></a>
+    <a href="https://discord.com/invite/fbFCkYabZB"><img src="./supportimg/images/icons8-discord.svg" class="me-3"></a>
+    <a href="https://www.facebook.com/theodinproject/"><img src="./supportimg/images/icons8-facebook.svg"class="me-3"></a>
+    <a href="https://x.com/TheOdinProject"><img src="./supportimg/images/icons8-twitter.svg" class="me-3"></a>
     </div>
   </div>
 
 <div class="col-lg-8">
   <div class="row">
-  <div class="col-lg-3 col-md-3  col-sm-6">
+  <div class="col-lg-6 col-md-6  col-sm-6 d-flex pb-5">
+    <div style="padding-right: 30%;">
     <p><b>About us</b></p>
     <a href="" class="footera">About</a>
     <a href="" class="footera">Team</a>
     <a href="" class="footera">Blog</a>
-    <a href="" class="footera">Success Stories  </a>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-6">
+    <a href="" class="footera">Success Stories  </a></div>
+    <div  style="padding-right: 30%;">
     <p><b>Support</b></p>
     <a href="" class="footera">FAQ</a>
     <a href="" class="footera">Contribute</a>
     <a href="" class="footera">Contact us</a>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-6">
+  </div></div>
+  <div class="col-lg-6 col-md-6 col-sm-6 d-flex">
+    <div  style="margin-right: 30%;">
     <p><b>Guides</b></p>
     <a href="" class="footera">Community guides</a>
     <a href="" class="footera">Installation guides</a>
   </div>
-  <div class="col-lg-3 col-md-3 col-sm-6">
+  <div  style="margin-right: 30%;">
     <p><b>Legal</b></p>
     <a href="../odin-project-grp-1/terms.html" class="footera">Terms</a>
     <a href="../odin-project-grp-1/privacy.html" class="footera">Privacy</a>
   </div>
 </div>
 </div>
-<img src="./supportimg/images/bg.png" style="width: 100%; margin-bottom: 2%; margin-top: 7%; height: 1.5px;">
-<p style="font-size: 12px; ">© 2024 The Odin Project. All rights reserved.</p>
 </div>
+<div class="container"><img src="./supportimg/images/bg.png" style="width: 100%; margin-bottom: 2%; margin-top: 7%; height: 1.5px;">
+  <p style="font-size: 12px; ">© 2024 The Odin Project. All rights reserved.</p></div>
 </footer>
     <script src="./supportimg/bootstrap.bundle.min.js">
     </script>

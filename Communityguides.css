@@ -13,13 +13,26 @@
     background-color: rgb(7, 96, 7); 
     border-radius: 5px; 
     border: none;
-    height: 50px;
-    width: 220px;
+    height: 45px;
+    width: 120px;
     color: white;
+}
+.button25{
+    background-color: white; 
+    border-radius: 5px; 
+    border: 1px solid rgba(111,111,111,0.2);
+    height: 45px;
+    width: 120px;
+    color: white;
+    margin-right: 20px;
 }
 section{
     background-color: rgb(244, 244, 244);
-
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 15%;
     
 }
 .footers{
@@ -68,9 +81,27 @@ section{
     }
 }
 .paragraph{
-    text-align: center; 
-    margin: 2%; 
-    margin-bottom: 4%;  
+    text-align: center;  
+    margin-bottom: 2%; 
+    margin-top: 2%;
     width: 700px;
     font-size: 18px;
+}
+.guides{
+    background-color: rgb(253, 253, 253); 
+    border-radius: 5px; 
+    border: 1px solid rgba(111,111,111,0.2);
+    
+    height: 55px;
+    width: 40%;
+    margin: 10px;
+    color: black;
+}
+
+.guides:hover{
+    background-color: rgb(217, 217, 217);
+}
+#text1{
+    padding-top: 2%;
+
 }
